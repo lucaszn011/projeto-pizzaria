@@ -1,6 +1,8 @@
- Projeto Pizzaria
-Projeto de banco de dados feito para praticar **SQL e PostgreSQL**.
-Tecnologias
+Projeto Pizzaria
+
+Projeto de banco de dados feito para praticar SQL e PostgreSQL.
+
+Tecnologias utilizadas
 
 PostgreSQL
 SQL
@@ -15,4 +17,4 @@ Chaves primárias
 
 Objetivo
 
-Praticar meus conhecimentos básicos de banco de dados.
+Praticar conhecimentos básicos de banco de dados.
