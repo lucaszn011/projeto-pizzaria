@@ -9,7 +9,6 @@ VALUES
 ('Maria', '11930324597'),
 ('Lucas', '11930146582');
 
-
 CREATE TABLE pizzas (
     id SERIAL PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
@@ -22,11 +21,12 @@ VALUES
 ('Pizza de Calabresa', 'Calabresa', 45.00),
 ('Pizza de Queijo', 'Queijo', 40.00);
 
-
 CREATE TABLE pedidos (
     id SERIAL PRIMARY KEY,
     cliente_id INTEGER NOT NULL,
-    data_pedido TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    data_pedido TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT fk_pedidos_clientes
+        FOREIGN KEY (cliente_id) REFERENCES clientes(id)
 );
 
 INSERT INTO pedidos (cliente_id)
