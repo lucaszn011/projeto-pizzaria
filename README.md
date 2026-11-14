@@ -1,20 +1,24 @@
-Projeto Pizzaria
+# Projeto Pizzaria
 
-Projeto de banco de dados feito para praticar SQL e PostgreSQL.
+Projeto de estudo para praticar a criação e a organização de um banco de dados de uma pizzaria.
 
-Tecnologias utilizadas
+O banco possui tabelas para clientes, pizzas e pedidos.
 
-PostgreSQL
-SQL
-pgAdmin
+## Tecnologias
 
-O que pratiquei
+- PostgreSQL
+- SQL
+- pgAdmin
 
-Criação de tabelas
-Inserção de dados
-Consultas SQL
-Chaves primárias
+## O que pratiquei
 
-Objetivo
+- Criação de tabelas
+- Definição de chaves primárias
+- Inserção de dados
+- Uso de tipos de dados
 
-Praticar conhecimentos básicos de banco de dados.
+## Arquivo
+
+- `pizzaria.sql`: comandos para criar as tabelas e inserir alguns registros.
+
+Projeto desenvolvido durante meus estudos de banco de dados.
