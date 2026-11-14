@@ -1,8 +1,8 @@
 # Projeto Pizzaria
 
-Projeto de estudo para praticar a criação e a organização de um banco de dados de uma pizzaria.
+Projeto de estudo para praticar a criação de um banco de dados simples para uma pizzaria usando **PostgreSQL**.
 
-O banco possui tabelas para clientes, pizzas e pedidos. A tabela de pedidos possui uma chave estrangeira que relaciona cada pedido a um cliente.
+O script cria tabelas para clientes, pizzas e pedidos, insere alguns registros de exemplo e relaciona os pedidos aos clientes por meio de uma chave estrangeira.
 
 ## Tecnologias
 
@@ -10,16 +10,27 @@ O banco possui tabelas para clientes, pizzas e pedidos. A tabela de pedidos poss
 - SQL
 - pgAdmin
 
-## O que pratiquei
+## Conceitos praticados
 
-- Criação de tabelas
-- Definição de chaves primárias e estrangeiras
-- Relacionamento entre tabelas
-- Inserção de dados
-- Uso de tipos de dados
+- Criação de tabelas com `CREATE TABLE`
+- Chaves primárias com `PRIMARY KEY`
+- Chave estrangeira com `FOREIGN KEY`
+- Definição de tipos de dados
+- Restrição `NOT NULL`
+- Inserção de registros com `INSERT INTO`
 
-## Arquivo
+## Estrutura do banco
 
-- `pizzaria.sql`: comandos para criar as tabelas e inserir alguns registros.
+- **clientes:** identifica os clientes e armazena nome e telefone.
+- **pizzas:** armazena nome, sabor e preço das pizzas.
+- **pedidos:** registra os pedidos e o cliente relacionado.
 
-Projeto desenvolvido durante meus estudos de banco de dados.
+## Como executar
+
+1. Abra o pgAdmin e conecte-se ao PostgreSQL.
+2. Abra o Query Tool em um banco de dados de estudo.
+3. Execute o arquivo `pizzaria.sql`.
+
+O script cria as tabelas e insere dados de exemplo. Execute-o em um banco vazio para evitar conflitos com tabelas já existentes.
+
+Projeto acadêmico para praticar os fundamentos de modelagem e manipulação de dados.
